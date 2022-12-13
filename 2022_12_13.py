@@ -8,7 +8,7 @@ import datetime
 
 def now_day():
     now = datetime.datetime.today()
-    print("Сегодня", now)
+    print("Сегодня сейчас", now)
     return now
 now = now_day()
 
