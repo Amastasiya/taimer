@@ -15,17 +15,9 @@ now = now_day()
 def new_year_second(now):
     new_year = datetime.datetime(2023, 1, 1)
     print(new_year)
+    counter_time = new_year - now
+    return counter_time
 
-#second = now.second
-#print(second)
-
-#new_year = datetime.datetime(2023, 1, 1)
-#print(new_year)
-
-#counter_time = new_year - now
-#print(counter_time)
-
-#counter_second =
 
 
 
