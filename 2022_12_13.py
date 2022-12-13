@@ -6,17 +6,26 @@
 
 import datetime
 
-now = datetime.datetime.today()
-print("Сегодня", now)
+def now_day():
+    now = datetime.datetime.today()
+    print("Сегодня", now)
+    return now
+now = now_day()
 
-second = now.second
-print(second)
+def new_year_second(now):
+    new_year = datetime.datetime(2023, 1, 1)
+    print(new_year)
 
-new_year = datetime.datetime(2023, 1, 1)
-print(new_year)
+#second = now.second
+#print(second)
 
-counter_time = new_year - now
-print(counter_time)
+#new_year = datetime.datetime(2023, 1, 1)
+#print(new_year)
+
+#counter_time = new_year - now
+#print(counter_time)
+
+#counter_second =
 
 
 
